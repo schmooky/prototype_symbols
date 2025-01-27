@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Showcase for Thunderkick Prototype Symbols textures and atlases">
+  <title>Thunderkick Prototype Symbols</title>
+
+  <!-- Fira Code font -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: 'Fira Code', monospace;
+      background-color: #2b2d31; /* Discord-like background */
+      color: #ffffff; /* White text */
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: #7289da; /* Discord blue */
+    }
+
+    a {
+      color: #7289da;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container styling */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Navigation bar */
+    .navbar {
+      background-color: #23272a; /* Darker than body */
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: #ffffff;
+      font-weight: 500;
+      margin: 0 15px;
+    }
+
+    .navbar a:hover {
+      color: #7289da;
+    }
+
+    /* Section layout */
+    .section {
+      margin: 30px 0;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #444b50;
+    }
+
+    .section h2 {
+      margin-top: 0;
+    }
+
+    /* Thumbnail grid */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive min-width */
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .image-grid img {
+      border: 2px solid #444b50;
+      border-radius: 5px;
+      width: 150px;
+      height: 150px; /* Resized */
+      object-fit: cover;
+    }
+
+    /* Button styles */
+    .btn {
+      display: inline-block;
+      background-color: #7289da;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .btn:hover {
+      background-color: #5a6cb3;
+    }
+
+    /* Extra details */
+    .description {
+      font-size: 14px;
+      color: #999999; /* Lighter description color */
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a href="#">Home</a>
+    <a href="https://github.com/schmooky/prototype_symbols">View Source on GitHub</a>
+  </header>
+
+  <main class="container">
+    <h1>Thunderkick Prototype Symbols</h1>
+    <p class="description">
+      A collection of textures and atlases from the Thunderkick Prototype Symbols repository. Preview and download the assets provided below.
+    </p>
+
+    <!-- Bonus Folder -->
+    <section class="section">
+      <h2>Bonus Folder</h2>
+      <p class="description">This folder contains bonus textures for additional features and effects.</p>
+      <div class="image-grid">
+        <img src="bonus/bonus_1.png" alt="Bonus 1">
+        <img src="bonus/bonus_1_blur.png" alt="Bonus 1 Blur">
+        <img src="bonus/bonus_2.png" alt="Bonus 2">
+        <img src="bonus/bonus_2_blur.png" alt="Bonus 2 Blur">
+        <img src="bonus/bonus_3.png" alt="Bonus 3">
+        <img src="bonus/bonus_3_blur.png" alt="Bonus 3 Blur">
+        <img src="bonus/bonus_4.png" alt="Bonus 4">
+        <img src="bonus/bonus_4_blur.png" alt="Bonus 4 Blur">
+      </div>
+      <a href="bonus/bonus_atlas.png" target="_blank" class="btn">Download Bonus Atlas</a>
+      <a href="bonus/bonus.tps" target="_blank" class="btn">Download Bonus TPS File</a>
+    </section>
+
+    <!-- Feature Folder -->
+    <section class="section">
+      <h2>Feature Folder</h2>
+      <p class="description">This folder includes core symbols and textures for key designs.</p>
+      <div class="image-grid">
+        <img src="feature/feature_1.png" alt="Feature 1">
+        <img src="feature/feature_1_blur.png" alt="Feature 1 Blur">
+        <img src="feature/feature_2.png" alt="Feature 2">
+        <img src="feature/feature_2_blur.png" alt="Feature 2 Blur">
+        <img src="feature/feature_3.png" alt="Feature 3">
+        <img src="feature/feature_3_blur.png" alt="Feature 3 Blur">
+        <img src="feature/feature_4.png" alt="Feature 4">
+        <img src="feature/feature_4_blur.png" alt="Feature 4 Blur">
+      </div>
+      <a href="feature/feature_atlas.png" target="_blank" class="btn">Download Feature Atlas</a>
+      <a href="feature/feature.tps" target="_blank" class="btn">Download Feature TPS File</a>
+    </section>
+
+    <!-- Misc Folder -->
+    <section class="section">
+      <h2>Misc Folder</h2>
+      <p class="description">This folder contains miscellaneous assets for various UI components or small textures.</p>
+      <div class="image-grid">
+        <img src="misc/arrow.png" alt="Arrow">
+        <img src="misc/black.png" alt="Black">
+        <img src="misc/frame_dashed.png" alt="Frame Dashed">
+        <img src="misc/frame_solid.png" alt="Frame Solid">
+        <img src="misc/transparent.png" alt="Transparent">
+        <img src="misc/white.png" alt="White">
+      </div>
+      <a href="misc/misc_atlas.png" target="_blank" class="btn">Download Misc Atlas</a>
+      <a href="misc/misc.tps" target="_blank" class="btn">Download Misc TPS File</a>
+    </section>
+
+    <!-- Round Folder -->
+    <section class="section">
+      <h2>Round Folder</h2>
+      <p class="description">This folder includes round symbols and their blurred counterparts.</p>
+      <div class="image-grid">
+        <img src="round/round_1.png" alt="Round 1">
+        <img src="round/round_1_blur.png" alt="Round 1 Blur">
+        <img src="round/round_2.png" alt="Round 2">
+        <img src="round/round_2_blur.png" alt="Round 2 Blur">
+        <img src="round/round_3.png" alt="Round 3">
+        <img src="round/round_3_blur.png" alt="Round 3 Blur">
+        <img src="round/round_4.png" alt="Round 4">
+        <img src="round/round_4_blur.png" alt="Round 4 Blur">
+        <img src="round/round_5.png" alt="Round 5">
+        <img src="round/round_5_blur.png" alt="Round 5 Blur">
+        <img src="round/round_6.png" alt="Round 6">
+        <img src="round/round_6_blur.png" alt="Round 6 Blur">
+        <img src="round/round_7.png" alt="Round 7">
+        <img src="round/round_7_blur.png" alt="Round 7 Blur">
+        <img src="round/round_8.png" alt="Round 8">
+        <img src="round/round_8_blur.png" alt="Round 8 Blur">
+        <img src="round/round_9.png" alt="Round 9">
+        <img src="round/round_9_blur.png" alt="Round 9 Blur">
+      </div>
+      <a href="round/round_atlas.png" target="_blank" class="btn">Download Round Atlas</a>
+      <a href="round/round.tps" target="_blank" class="btn">Download Round TPS File</a>
+    </section>
+
+    <!-- Royal Folder -->
+    <section class="section">
+      <h2>Royal Folder</h2>
+      <p class="description">This folder contains symbols and textures with a royal theme.</p>
+      <div class="image-grid">
+        <img src="royal/royal_1.png" alt="Royal 1">
+        <img src="royal/royal_1_blur.png" alt="Royal 1 Blur">
+        <img src="royal/royal_2.png" alt="Royal 2">
+        <img src="royal/royal_2_blur.png" alt="Royal 2 Blur">
+        <img src="royal/royal_3.png" alt="Royal 3">
+        <img src="royal/royal_3_blur.png" alt="Royal 3 Blur">
+        <img src="royal/royal_4.png" alt="Royal 4">
+        <img src="royal/royal_4_blur.png" alt="Royal 4 Blur">
+        <img src="royal/royal_5.png" alt="Royal 5">
+        <img src="royal/royal_5_blur.png" alt="Royal 5 Blur">
+        <img src="royal/royal_6.png" alt="Royal 6">
+        <img src="royal/royal_6_blur.png" alt="Royal 6 Blur">
+        <img src="royal/royal_7.png" alt="Royal 7">
+        <img src="royal/royal_7_blur.png" alt="Royal 7 Blur">
+        <img src="royal/royal_8.png" alt="Royal 8">
+        <img src="royal/royal_8_blur.png" alt="Royal 8 Blur">
+        <img src="royal/royal_9.png" alt="Royal 9">
+        <img src="royal/royal_9_blur.png" alt="Royal 9 Blur">
+      </div>
+      <a href="royal/royal_atlas.png" target="_blank" class="btn">Download Royal Atlas</a>
+      <a href="royal/royal.tps" target="_blank" class="btn">Download Royal TPS File</a>
+    </section>
+
+    <!-- Square Folder -->
+    <section class="section">
+      <h2>Square Folder</h2>
+      <p class="description">This folder contains square-shaped symbols and blurred variants.</p>
+      <div class="image-grid">
+        <img src="square/square_1.png" alt="Square 1">
+        <img src="square/square_1_blur.png" alt="Square 1 Blur">
+        <img src="square/square_2.png" alt="Square 2">
+        <img src="square/square_2_blur.png" alt="Square 2 Blur">
+        <img src="square/square_3.png" alt="Square 3">
+        <img src="square/square_3_blur.png" alt="Square 3 Blur">
+        <img src="square/square_4.png" alt="Square 4">
+        <img src="square/square_4_blur.png" alt="Square 4 Blur">
+        <img src="square/square_5.png" alt="Square 5">
+        <img src="square/square_5_blur.png" alt="Square 5 Blur">
+        <img src="square/square_6.png" alt="Square 6">
+        <img src="square/square_6_blur.png" alt="Square 6 Blur">
+        <img src="square/square_7.png" alt="Square 7">
+        <img src="square/square_7_blur.png" alt="Square 7 Blur">
+        <img src="square/square_8.png" alt="Square 8">
+        <img src="square/square_8_blur.png" alt="Square 8 Blur">
+        <img src="square/square_9.png" alt="Square 9">
+        <img src="square/square_9_blur.png" alt="Square 9 Blur">
+      </div>
+      <a href="square/square_atlas.png" target="_blank" class="btn">Download Square Atlas</a>
+      <a href="square/square.tps" target="_blank" class="btn">Download Square TPS File</a>
+    </section>
+
+    <!-- Wild Folder -->
+    <section class="section">
+      <h2>Wild Folder</h2>
+      <p class="description">This folder contains wild symbols, often used for special game features.</p>
+      <div class="image-grid">
+        <img src="wild/wild_1.png" alt="Wild 1">
+        <img src="wild/wild_1_blur.png" alt="Wild 1 Blur">
+        <img src="wild/wild_2.png" alt="Wild 2">
+        <img src="wild/wild_2_blur.png" alt="Wild 2 Blur">
+        <img src="wild/wild_3.png" alt="Wild 3">
+        <img src="wild/wild_3_blur.png" alt="Wild 3 Blur">
+        <img src="wild/wild_4.png" alt="Wild 4">
+        <img src="wild/wild_4_blur.png" alt="Wild 4 Blur">
+      </div>
+      <a href="wild/wild_atlas.png" target="_blank" class="btn">Download Wild Atlas</a>
+      <a href="wild/wild.tps" target="_blank" class="btn">Download Wild TPS File</a>
+    </section>
+
+  </main>
+
+  <footer class="navbar">
+    <p>&copy; 2024 Thunderkick Prototype Symbols. All rights reserved.</p>
+  </footer>
+</body>
+</html>
